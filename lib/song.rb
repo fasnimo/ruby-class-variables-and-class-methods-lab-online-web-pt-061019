@@ -6,14 +6,14 @@ class Song
     @artist = artist_name
     @genre = genre_type
   end
-    @@count = 0
-  def initialize
-    @@count += 1
-
-  end
-
-  def self.count
-      @@count
-  end
+  #   @@count = 0
+  # def initialize
+  #   @@count += 1
+  # 
+  # end
+  # 
+  # def self.count
+  #     @@count
+  # end
 
 end
