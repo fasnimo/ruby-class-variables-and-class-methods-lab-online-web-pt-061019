@@ -6,7 +6,7 @@ class Song
 
   # def name
   #   @name
-  # 
+  #
   # end
 
 
