@@ -22,9 +22,18 @@ class Song
 
   def self.genre
     @@genres
-
   end
+
   def self.genre_count
+    genre_hash = {}
+    @@genres.map do |genre|
+        genre_hash[genre] ||= 0
+        genre_hash[genre] += 1
+    end
+    genre_hash
+  end
+
+  def self.artist_count
     genre_hash = {}
     @@genres.map do |genre|
         genre_hash[genre] ||= 0
