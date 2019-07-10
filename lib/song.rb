@@ -3,7 +3,7 @@ class Song
     @@count = 0
     @@genres = []
     @@ artist = []
-  def initialize(album_name, artist_name, genre_type, count)
+  def initialize(album_name, artist_name, genre_type)
     @name = album_name
     @artist = artist_name
     @genre = genre_type
