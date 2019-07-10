@@ -9,6 +9,7 @@ class Song
     @genre = genre_type
     @@count +=1
     @@genres << genre_type
+    @@artist << artist_name
   end
 
 @@count[genre_type]
