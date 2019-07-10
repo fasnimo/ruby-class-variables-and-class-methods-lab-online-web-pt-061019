@@ -18,4 +18,4 @@ class Count
   def self.count
       @@count
   end
-
+end
