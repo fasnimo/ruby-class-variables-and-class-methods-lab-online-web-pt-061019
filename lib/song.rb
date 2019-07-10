@@ -11,11 +11,11 @@ end
 class Count
     @@genre_count = 0
   def count
-    @@count += 1
+    @@genre_count += 1
 
   end
 
   def self.song
-      @@count
+      @@genre_count
   end
 end
