@@ -20,7 +20,7 @@ class Song
       @@artists.uniq
   end
 
-  def self.genree
+  def self.genre
     @@genres
   end
 
