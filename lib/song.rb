@@ -7,6 +7,7 @@ class Song
     @name = album_name
     @artist = artist_name
     @genre = genre_type
+    @@count +=1
   end
 
 @@count[genre_type]
