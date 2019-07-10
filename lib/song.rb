@@ -39,6 +39,6 @@ class Song
         artist_hash[art] ||= 0
         artist_hash[art] += 1
     end
-_hash
+    artist_hash
   end
 end
