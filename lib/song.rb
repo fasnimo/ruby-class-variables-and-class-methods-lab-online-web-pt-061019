@@ -13,7 +13,7 @@ class Song
     @@artist << artist_name
   end
   def self.count
-
+    @@count
   end
   def self.genre_count
     genre_hash = {}
