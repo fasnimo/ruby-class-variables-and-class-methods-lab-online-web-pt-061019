@@ -4,13 +4,10 @@ class Song
     @name = album_name
   end
 
-  def name
-    @name
+  # def name
+  #   @name
+  # 
+  # end
 
-  end
-
-  def artist=(artist_name)
-    @artist = artist_name 
-  end
 
 end
