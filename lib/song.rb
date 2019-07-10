@@ -8,7 +8,7 @@ class Song
   end
 
     @@count = {}
-def initialize()
+def initialize
   @@count += 1
 
 end
