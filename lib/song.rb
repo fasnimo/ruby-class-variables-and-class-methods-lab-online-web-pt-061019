@@ -3,8 +3,8 @@ class Song
 
   def initialize(album_name, artist_name, genre_type, count)
     @name = album_name
-    @artist = artist_name
-    @genre = genre_type
+    @@artist = artist_name
+    @@genre = genre_type
   @@count[genre_type]
   end
 
