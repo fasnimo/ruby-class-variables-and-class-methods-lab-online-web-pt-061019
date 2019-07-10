@@ -3,6 +3,7 @@ class Song
     @@count = 0
     @@genres = []
     @@artist = []
+
   def initialize(album_name, artist_name, genre_type)
     @name = album_name
     @artist = artist_name
@@ -11,7 +12,9 @@ class Song
     @@genres << genre_type
     @@artist << artist_name
   end
+  def self.count
 
+  end
   def self.genre_count
     genre_hash = {}
     @@genres.map do |genre|
