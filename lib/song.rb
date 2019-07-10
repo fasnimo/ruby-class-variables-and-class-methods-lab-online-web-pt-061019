@@ -5,7 +5,7 @@ class Song
     @name = album_name
     @artist = artist_name
     @genre = genre_type
-    @@count[:name]
+    @@count[:genre]
   end
 
     @@count = {}
