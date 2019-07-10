@@ -16,8 +16,8 @@ class Song
     @@count
   end
 
-  def self.artist
-      @@artist
+  def self.artists
+      @@artists
   end
   def self.genre_count
     genre_hash = {}
