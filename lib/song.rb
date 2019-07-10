@@ -12,14 +12,6 @@ class Song
     @@artist << artist_name
   end
 
-# @@count[genre_type]
-
-
-# def count
-#   @@count -= 1
-#
-# end
-
   def self.genre_count
     genre_hash = {}
     @@genres.map do |genre|
