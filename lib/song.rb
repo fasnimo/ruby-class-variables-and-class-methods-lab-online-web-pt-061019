@@ -10,7 +10,7 @@ end
 
 class Count
     @@genre_count = 0
-  def count
+  def genre_count
     @@genre_count += 1
 
   end
