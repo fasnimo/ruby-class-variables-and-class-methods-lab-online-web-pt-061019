@@ -9,7 +9,7 @@ class Song
 end
 
 class Count
-    @@count = 0
+    @@genre_count = 0
   def count
     @@count += 1
 
