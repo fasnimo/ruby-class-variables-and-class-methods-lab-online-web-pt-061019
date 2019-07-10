@@ -8,9 +8,9 @@ class Song
   end
 
     @@count = {}
-def initialize
+def count
   @@count -= 1
-
+  
 end
 
 def self.genre_count
