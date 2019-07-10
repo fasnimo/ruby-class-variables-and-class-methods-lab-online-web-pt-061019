@@ -7,8 +7,8 @@ class Song
     @genre = genre_type
   end
 
-    @@count = 0
-def count
+    @@count = {}
+def initialize()
   @@count += 1
 
 end
