@@ -36,8 +36,8 @@ class Song
   def self.artist_count
     artist_hash = {}
     @@artists.map do |art|
-        artist_hash[genre] ||= 0
-        artist_hash[genre] += 1
+        artist_hash[art] ||= 0
+        artist_hash[art] += 1
     end
     genre_hash
   end
