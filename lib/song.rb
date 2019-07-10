@@ -23,7 +23,7 @@ class Song
 def self.genre_count
   genre_hash = {}
   @@genres.map do |genre|
-      genre_hash[] ||=
+      genre_hash[genre] ||=
   end
 
 end
