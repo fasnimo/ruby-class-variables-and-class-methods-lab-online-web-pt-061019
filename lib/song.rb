@@ -6,7 +6,8 @@ class Song
     @artist = artist_name
     @genre = genre_type
   end
-  @@count = 0
+
+    @@count = 0
 def count
   @@count += 1
 
